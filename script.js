@@ -55,8 +55,8 @@ function endGame() {
 clearInterval(timer);
 
 var quizContent = `
-<h2>Game over, womp womp!</h2>
-<h3>You got a ` + score +  ` /100!</h3>
+<h2>O No, Game Over!</h2>
+<h3>You got a ` + score +  ` /100</h3>
 <h3>That means you got ` + score / 20 +  ` questions correct, bravo!</h3>
 <input type="text" id="name" placeholder="First name"> 
 <button onclick="setScore()">Set score!</button>`;
@@ -84,7 +84,7 @@ var quizContent = `
 document.getElementById("quizBody").innerHTML = quizContent;
 }
 
-//clears the score name and value in the local storage if the user selects 'clear score'
+
 function clearScore() {
 localStorage.setItem("highscore", "");
 localStorage.setItem("highscoreName",  "");
@@ -92,7 +92,7 @@ localStorage.setItem("highscoreName",  "");
 resetGame();
 }
 
-//reset the game 
+
 function resetGame() {
 clearInterval(timer);
 score = 0;
@@ -114,19 +114,19 @@ var quizContent = `
 document.getElementById("quizBody").innerHTML = quizContent;
 }
 
-//deduct 15seconds from the timer if user chooses an incorrect answer
+
 function incorrect() {
 timeLeft -= 15; 
 next();
 }
 
-//increases the score by 20points if the user chooses the correct answer
+
 function correct() {
 score += 20;
 next();
 }
 
-//loops through the questions 
+
 function next() {
 currentQuestion++;
 

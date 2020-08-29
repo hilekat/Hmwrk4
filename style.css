@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
 .right {
     float: right;
 }
@@ -17,7 +17,7 @@
     margin: 6px;
 }
 
-/* main section */
+
 
 body {
     font-family: 'sans-serif', arial;
@@ -57,3 +57,4 @@ button:hover {
 #quiz {
     text-align: center;
 }
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
