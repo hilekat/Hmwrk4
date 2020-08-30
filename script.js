@@ -1,27 +1,27 @@
 var questions = [{
     title: "Which US president was the first to be born in a hospital?",
-    choices: ["FDR( )", "Carter( )", "Kennedy( )", "JFK( )"],
-    answer: "Carter( )"
+    choices: ["FDR", "Carter", "Kennedy", "JFK"],
+    answer: "Carter"
 },
 {
     title: "Who is the creator of the classic book characters Tom Sawyer and Huckleberry Finn?",
-    choices: ["Charles Dickens( )", "Dr.Seuss( )", "Ernest Hemingway( )", "Mark Twain( )"],
-    answer: "Mark Twain( )"
+    choices: ["Charles Dickens", "Dr.Seuss", "Ernest Hemingway", "Mark Twain"],
+    answer: "Mark Twain"
 },
 {
     title: "Which country is both an island and a continent?",
-    choices: ["Ireland( )", "New Zeland( )", "Australia( )", "Japan"],
-    answer: "Australia( )"
+    choices: ["Ireland", "New Zeland", "Australia", "Japan"],
+    answer: "Australia"
 },
 {
     title: "What are the three states of matter?",
-    choices: ["Doesn't, Kinda, Does( )", "Solid, Liquid, Gas( )", "This, That, There( )", "I have No Idea( )"],
-    answer: "Solid, Liquid, Gas( )"
+    choices: ["Doesn't, Kinda, Does", "Solid, Liquid, Gas", "This, That, There", "Physical, Astrological, Theory"],
+    answer: "Solid, Liquid, Gas"
 },
 {
     title: "A hexagon has how many sides?",
-    choices: ["10( )", "7( )", " 3( )", "6( )"],
-    answer: "6( )"
+    choices: ["10", "7", " 3", "6"],
+    answer: "6"
 }
 ]
 
